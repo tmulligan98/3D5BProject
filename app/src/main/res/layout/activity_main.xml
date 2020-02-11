@@ -12,11 +12,55 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="New Project Timetable App"
+        android:text="Joe Soap's Barbers"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="115dp"
+        android:layout_height="113dp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/avatars[11]" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:text="Bio:"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350"
+        android:layout_height="wrap_content"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text=
+            "Home barbers located in X\n€15 Mens Haircut\n€12 Students Haircut
+            \n\nPlease make appointments on my timetable below :)"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="350dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

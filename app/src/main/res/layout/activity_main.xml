@@ -45,7 +45,7 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="350"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:gravity="start|top"
         android:inputType="textMultiLine"
